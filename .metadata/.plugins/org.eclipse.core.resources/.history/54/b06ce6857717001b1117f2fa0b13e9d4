@@ -1,0 +1,22 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import stepdefs.ElectricityBill;
+
+public class ElectricityBillTestSuite {ElectricityBill electricityBill = new ElectricityBill();
+
+@Test
+public void whenElectricityBillConsumedunitsAreGivenReturnTotalBill() {
+	
+	Double electricityBillAmount= electricityBill.getTotalBill(40);
+	
+	System.out.println("electricityBillAmount=="+electricityBillAmount);
+	
+	assertEquals(171.268, electricityBillAmount);
+	
+}
+	
+	
+
+}

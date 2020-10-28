@@ -1,0 +1,21 @@
+package electricitybill;
+
+import org.junit.runner.RunWith;
+import io.cucumber.junit.*;
+
+@RunWith(Cucumber.class)
+
+@CucumberOptions(
+		
+		feature = "src/test/resources/Electrictybill.feature",
+		glue= {stepdefs}
+		plugin=
+		
+		
+	)
+
+public class TestRunner {
+	
+	
+
+}

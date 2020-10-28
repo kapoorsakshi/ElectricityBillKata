@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="1.021">
+    <testsuite name="Calculate electricity bill" time="1.021">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.722"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.031"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.222">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calcaulte Total FCA Charges" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calcaulte Total FCA Charges")
+public void i_calcaulte_total_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify Total FCA Charges {double}")
+public void i_verify_total_fca_charges(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.029">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calcaulte Total FCA Charges" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calcaulte Total FCA Charges")
+public void i_calcaulte_total_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify Total FCA Charges {double}")
+public void i_verify_total_fca_charges(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

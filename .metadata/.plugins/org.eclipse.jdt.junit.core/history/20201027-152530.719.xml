@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="2" errors="0" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.811">
+    <testsuite name="Calculate electricity bill" time="0.811">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.708"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.017"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.009"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.035">
+        <failure>java.lang.AssertionError: expected:&lt;0.09&gt; but was:&lt;0.0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:685)&#13;
+	at stepdefs.ElectricityBillTest.my_duty_charge_slab_is(ElectricityBillTest.java:101)&#13;
+	at ✽.my duty charge slab is 0.09(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:24)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.033">
+        <failure>java.lang.AssertionError: expected:&lt;0.09&gt; but was:&lt;0.0&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:685)&#13;
+	at stepdefs.ElectricityBillTest.my_duty_charge_slab_is(ElectricityBillTest.java:101)&#13;
+	at ✽.my duty charge slab is 0.09(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:24)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

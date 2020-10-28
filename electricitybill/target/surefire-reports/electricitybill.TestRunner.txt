@@ -1,0 +1,216 @@
+-------------------------------------------------------------------------------
+Test set: electricitybill.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 3.689 sec <<< FAILURE!
+Calculate Energy Charges Units consumed upto 50 units #1(Calculate electricity bill)  Time elapsed: 0.551 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the energy charges")
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {int}")
+public void i_verify_the(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate Energy Charges Units consumed upto 50 units #2(Calculate electricity bill)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the energy charges")
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate FCA Charges Units consumed upto 50 units #1(Calculate electricity bill)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the FCA charges")
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate FCA Charges Units consumed upto 50 units #2(Calculate electricity bill)  Time elapsed: 0.012 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the FCA charges")
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate Duty Charges Units consumed upto 50 units #1(Calculate electricity bill)  Time elapsed: 0.032 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the slab wise duty charges")
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the FCA on duty charges")
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate Duty Charges Units consumed upto 50 units #2(Calculate electricity bill)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the slab wise duty charges")
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the FCA on duty charges")
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate Total Charge Units consumed upto 50 units #1(Calculate electricity bill)  Time elapsed: 0.009 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the slab wise duty charges")
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the FCA on duty charges")
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Calculate Total Charge Units consumed upto 50 units #2(Calculate electricity bill)  Time elapsed: 0.015 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "the slab is <slab>" is undefined. You can implement it using the snippet(s) below:
+
+@Given("the slab is <slab>")
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("I check for the slab wise duty charges")
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I check for the FCA on duty charges")
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

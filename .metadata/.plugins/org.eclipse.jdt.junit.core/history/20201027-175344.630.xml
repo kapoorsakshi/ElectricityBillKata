@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.684">
+    <testsuite name="Calculate electricity bill" time="0.684">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.458"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.027"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.016"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.02"/>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.141">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I get slab wise duty charges &lt; G &gt;" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I get slab wise duty charges &lt; G &gt;")
+public void i_get_slab_wise_duty_charges_g() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("I get FCA on Duty &lt; H &gt;")
+public void i_get_fca_on_duty_h() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I Total FCA Charges &lt;Total Duty charges I &gt;")
+public void i_total_fca_charges_total_duty_charges_i() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.022">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I get slab wise duty charges &lt; G &gt;" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I get slab wise duty charges &lt; G &gt;")
+public void i_get_slab_wise_duty_charges_g() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("I get FCA on Duty &lt; H &gt;")
+public void i_get_fca_on_duty_h() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I Total FCA Charges &lt;Total Duty charges I &gt;")
+public void i_total_fca_charges_total_duty_charges_i() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

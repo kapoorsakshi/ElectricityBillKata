@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.64">
+    <testsuite name="Calculate electricity bill" time="0.64">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.532"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.017"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.006"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.011"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.066"/>
+    </testsuite>
+  </testsuite>
+</testrun>

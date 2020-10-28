@@ -1,0 +1,48 @@
+package stepdefs;
+
+public class ElectricityBill {
+	
+	private int unitsConsumed;
+	private double slabUsed;
+	private double energyCharges;
+	private double fcaSlabCharge;
+
+	public void setUnits(Integer units) {
+		// TODO Auto-generated method stub
+		unitsConsumed= units;
+		
+		
+	}
+
+	public int getUnits() {
+		// TODO Auto-generated method stub
+		return unitsConsumed;
+	}
+
+	public void setSlab(Double slab) {
+		// TODO Auto-generated method stub
+		slabUsed= slab;
+		
+	}
+	
+	public double getSlabs() {
+		// TODO Auto-generated method stub
+		return slabUsed;
+	}
+
+	public double calculateEnergyCharges() {
+		// TODO Auto-generated method stub
+		
+		energyCharges =unitsConsumed *slabUsed;
+		return energyCharges;
+		
+	}
+
+	public void setfcaSlab(double fca_slab) {
+		// TODO Auto-generated method stub
+		
+		fcaSlabCharge= fca_slab;
+		
+	}
+
+}

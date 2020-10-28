@@ -1,0 +1,16 @@
+package stepdefs;
+
+public class ElectricityBill {
+
+	public int getunits() {
+		// TODO Auto-generated method stub
+		
+		return 40;
+	}
+
+	public Double getTotalBill(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

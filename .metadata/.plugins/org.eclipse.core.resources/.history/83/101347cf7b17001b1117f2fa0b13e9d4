@@ -1,0 +1,10 @@
+package stepdefs;
+
+public class ElectricityBill {
+
+	public void setUnits(Integer units) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

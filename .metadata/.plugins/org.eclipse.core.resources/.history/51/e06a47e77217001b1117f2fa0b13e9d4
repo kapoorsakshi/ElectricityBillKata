@@ -1,0 +1,12 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ElectricityBillTestSuite {
+
+	@Test
+	public void whenElectricityBillConsumedunitsAreGivenReturnTotalBill() {
+		fail("Not yet implemented");
+	}
+
+}

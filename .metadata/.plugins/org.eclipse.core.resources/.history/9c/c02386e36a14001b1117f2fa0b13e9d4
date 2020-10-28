@@ -1,0 +1,22 @@
+Feature: Calculate electricity bill
+  
+  
+   Scenario Outline: calculate Energy Charges Units consumed less or equal to 50 units
+    Given My electricity bill is  <unit>
+    When I check for the energy charges
+    Then I verify the <energy charge>
+
+    Examples: 
+      |unit| energy charge  |
+      | 40 |     162			  | 
+      | 50 |    202.5       | 
+
+      
+   #Scenario Outline: calculate Energy Charges Units consumed less or equal to 50 units
+    #Given My electricity bill is  <unit>
+    #When I check for the <energy charges>
+    #And I check for t  he <fca charges>
+    #And I check for the <duty charges>
+    #Then I verify the <Total Bill> in step
+
+    

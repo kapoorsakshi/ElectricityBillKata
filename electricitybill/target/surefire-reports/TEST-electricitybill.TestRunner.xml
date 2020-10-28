@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="0" name="electricitybill.TestRunner" time="0.644" errors="8" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sakshi.a.kapoor\Desktop\TechnicalAgility\ElectricityBill_Workspace\electricitybill"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sakshi.a.kapoor\Desktop\TechnicalAgility\ElectricityBill_Workspace\electricitybill"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAKSHI~1.KAP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\sakshi.a.kapoor\Desktop\TechnicalAgility\ElectricityBill_Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8622035355103395582.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_231/bin/../jre/lib/amd64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2\Scripts;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2\Library\bin;C:\Users\sakshi.a.kapoor\AppData\Local\Microsoft\WindowsApps;C:\Users\sakshi.a.kapoor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2\Scripts;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\Anaconda2\Library\bin;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\anaconda3\Library;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\anaconda3\Library\Scripts;C:\Users\sakshi.a.kapoor\AppData\Local\Continuum\anaconda3\Library\Library\bin;C:\Users\sakshi.a.kapoor\AppData\Local\Microsoft\WindowsApps;C:\Users\sakshi.a.kapoor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-tomcat-9.0.37;;C:\Users\sakshi.a.kapoor\Desktop\Wellsfargo_TechCoaching\sts-4.6.1.RELEASE;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sakshi.a.kapoor"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sakshi.a.kapoor"/>
+    <property name="java.class.path" value="C:\Users\sakshi.a.kapoor\Desktop\Wellsfargo_TechCoaching\sts-4.6.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -Dstyle.color=always"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\sakshi.a.kapoor\Desktop\TechnicalAgility\ElectricityBill_Workspace\electricitybill\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Calculate electricity bill" name="Calculate Energy Charges Units consumed upto 50 units #1" time="0.551">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the energy charges&quot;)
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {int}&quot;)
+public void i_verify_the(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the energy charges&quot;)
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {int}&quot;)
+public void i_verify_the(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Energy Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:12&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the energy charges&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 162&amp;#27;[0m                                                 &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate Energy Charges Units consumed upto 50 units #2" time="0.007">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the energy charges&quot;)
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the energy charges&quot;)
+public void i_check_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Energy Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:13&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                                &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the energy charges&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 202.5&amp;#27;[0m                                               &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate FCA Charges Units consumed upto 50 units #1" time="0.009">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the FCA charges&quot;)
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the FCA charges&quot;)
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate FCA Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:21&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the FCA charges&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 5.2&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate FCA Charges Units consumed upto 50 units #2" time="0.012">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the FCA charges&quot;)
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the FCA charges&quot;)
+public void i_check_for_the_fca_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate FCA Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:22&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the FCA charges&amp;#27;[0m                                   &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 6.5&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate Duty Charges Units consumed upto 50 units #1" time="0.032">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Duty Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:31&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the slab wise duty charges&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI check for the FCA on duty charges&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 4.068&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate Duty Charges Units consumed upto 50 units #2" time="0.009">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Duty Charges Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:32&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the slab wise duty charges&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI check for the FCA on duty charges&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 5.085&amp;#27;[0m                                             &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate Total Charge Units consumed upto 50 units #1" time="0.009">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Total Charge Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:41&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the slab wise duty charges&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI check for the FCA on duty charges&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 171.268&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Calculate electricity bill" name="Calculate Total Charge Units consumed upto 50 units #2" time="0.015">
+    <error message="The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &quot;the slab is &lt;slab&gt;&quot; is undefined. You can implement it using the snippet(s) below:
+
+@Given(&quot;the slab is &lt;slab&gt;&quot;)
+public void the_slab_is_slab() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When(&quot;I check for the slab wise duty charges&quot;)
+public void i_check_for_the_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;I check for the FCA on duty charges&quot;)
+public void i_check_for_the_fca_on_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;I verify the {double}&quot;)
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Scenario Outline: Calculate Total Charge Units consumed upto 50 units &amp;#27;[90m# src/test/resources/Electrictybill.feature:42&amp;#27;[0m
+  &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mthe slab is &lt;slab&gt;&amp;#27;[0m                                              &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI check for the slab wise duty charges&amp;#27;[0m                         &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI check for the FCA on duty charges&amp;#27;[0m                             &amp;#27;[90m# null&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI verify the 214.085&amp;#27;[0m                                           &amp;#27;[90m# null&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

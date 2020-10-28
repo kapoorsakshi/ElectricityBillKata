@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.458">
+    <testsuite name="Calculate electricity bill" time="0.458">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.357"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.013"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.016"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.008"/>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.054">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefs.ElectricityBillTest.i_verify_slab_wise_duty_charges(ElectricityBillTest.java:139)&#13;
+	at ✽.I verify slab wise duty charges(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:29)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.009">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepdefs.ElectricityBillTest.i_verify_slab_wise_duty_charges(ElectricityBillTest.java:139)&#13;
+	at ✽.I verify slab wise duty charges(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:29)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

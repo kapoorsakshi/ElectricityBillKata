@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.74">
+    <testsuite name="Calculate electricity bill" time="0.74">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.682"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.058"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,12 @@
+package default;
+
+public class ElectricityBill {
+
+	
+
+	public Double getTotalBill(int units) {
+		// TODO Auto-generated method stub
+		return 171.268;
+	}
+
+}

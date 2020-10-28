@@ -1,0 +1,58 @@
+package stepdefs;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class ElectricityBillTest {
+	
+	@Given("my slab is {double}")
+	public void my_slab_is(Double double1) {
+	    // Write code here that turns the phrase above into concrete actions
+	}    
+
+	@When("I check for the energy charges")
+	public void i_check_for_the_energy_charges() {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+	@Then("I verify the <energy charge>")
+	public void i_verify_the_energy_charge() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new io.cucumber.java.PendingException();
+	}
+	
+	
+//"I check for the FCA charges" 
+
+		@When("I check for the FCA charges")
+		public void i_check_for_the_fca_charges() {
+		    // Write code here that turns the phrase above into concrete actions
+		    //throw new io.cucumber.java.PendingException();
+		}
+
+		@When("FCA charge os {double} paisa\\/unit")
+		public void fca_charge_os_paisa_unit(Double double1) {
+		    // Write code here that turns the phrase above into concrete actions
+		   // throw new io.cucumber.java.PendingException();
+		}
+		@Then("I verify the {double}")
+		public void i_verify_the(Double double1) {
+		    // Write code here that turns the phrase above into concrete actions
+		    //throw new io.cucumber.java.PendingException();
+		}
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+}

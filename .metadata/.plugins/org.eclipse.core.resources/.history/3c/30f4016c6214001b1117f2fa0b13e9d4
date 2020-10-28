@@ -1,0 +1,20 @@
+Feature: Calculate electricity bill
+  
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+   Scenario Outline: Unit less or equal to 50 units
+    Given My electricity bill is less than equal to <unit>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | unit  | value | status  |
+      | 40 |     5 | success |
+      | 45 |     7 | Fail    |

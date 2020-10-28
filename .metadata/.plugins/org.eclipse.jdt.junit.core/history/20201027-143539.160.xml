@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.694">
+    <testsuite name="Calculate electricity bill" time="0.694">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.667">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the 162.00" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.016">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify the 202.50" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

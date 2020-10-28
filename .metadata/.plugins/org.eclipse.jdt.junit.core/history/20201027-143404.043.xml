@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.96">
+    <testsuite name="Calculate electricity bill" time="0.96">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.934">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calcuate for the energy charges" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calcuate for the energy charges")
+public void i_calcuate_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify the {int}")
+public void i_verify_the(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.02">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calcuate for the energy charges" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calcuate for the energy charges")
+public void i_calcuate_for_the_energy_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify the {double}")
+public void i_verify_the(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

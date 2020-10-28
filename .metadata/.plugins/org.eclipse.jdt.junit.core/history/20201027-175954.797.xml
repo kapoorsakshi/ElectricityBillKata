@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="1" errors="1" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.863">
+    <testsuite name="Calculate electricity bill" time="0.863">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.577"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.027"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.022"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.015"/>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.176">
+        <failure>java.lang.AssertionError: expected:&lt;3.6&gt; but was:&lt;3.5999999999999996&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:685)&#13;
+	at stepdefs.ElectricityBillTest.i_get_slab_wise_duty_charges(ElectricityBillTest.java:122)&#13;
+	at ✽.I get slab wise duty charges 3.60(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:26)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Calculate Total Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.045">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I verify slab wise duty charges" is undefined. You can implement it using the snippet(s) below:
+
+@Then("I verify slab wise duty charges")
+public void i_verify_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,39 @@
+Feature: Calculate electricity bill
+
+  Scenario Outline: Calculate Energy Charges Units consumed upto 50 units
+    Given My electricity bill is  <unit>
+    And my slab is <slab>
+    When I calcuate for the energy charges
+    Then I verify the <energy charge>
+
+    Examples: 
+      | unit | slab | energy charge |
+      |   40 | 4.05 |        162.00 |
+      |   50 | 4.05 |        202.50 |
+
+  Scenario Outline: Calculate FCA Charges Units consumed upto 50 units
+    When FCA_slab is <fca_slab>
+    Then I verify the FCA charge <FCA charge>
+
+    Examples: 
+      | unit | fca_slab | FCA charge |
+      |   40 |     0.13 |       5.20 |
+      |   50 |     0.13 |       6.50 |
+
+  Scenario Outline: Calculate Total Duty Charge Units consumed upto 50 units
+    Given My electricity bill is  <unit>
+    And my duty charge slab is <duty slab>
+    And I get slab wise duty charges <Slab wise duty charges=G>
+    And I get FCA on Duty <FCA_Duty_charges= H >
+    When I get FCA on Duty <Total_Duty_charges= I >
+    Then I verify slab wise duty charges
+
+    Examples: 
+      | unit | duty slab | Slab wise duty charges=G |
+      |   40 |      0.09 |                     3.60 |
+      |   50 |      0.09 |                     4.50 |
+
+
+
+      
+      

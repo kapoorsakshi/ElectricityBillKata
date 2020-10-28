@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="1" errors="0" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.523">
+    <testsuite name="Calculate electricity bill" time="0.523">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.434"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.013"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.007"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.006"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.023">
+        <failure>java.lang.AssertionError: expected:&lt;3.6&gt; but was:&lt;3.5999999999999996&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:555)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:685)&#13;
+	at stepdefs.ElectricityBillTest.i_calculate_slab_wise_duty_charges(ElectricityBillTest.java:124)&#13;
+	at ✽.I calculate slab wise duty charges 3.60(file:///C:/Users/sakshi.a.kapoor/Desktop/TechnicalAgility/ElectricityBill_Workspace/electricitybill/src/test/resources/Electrictybill.feature:26)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.039"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="6" started="6" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.699">
+    <testsuite name="Calculate electricity bill" time="0.699">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.538"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.007"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.007"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.007"/>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.113">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calculate slab wise duty charges 3.60" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calculate slab wise duty charges {double}")
+public void i_calculate_slab_wise_duty_charges(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify slab wise duty charges")
+public void i_verify_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate Duty Charge Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.027">
+        <error>io.cucumber.junit.UndefinedStepException: The step "I calculate slab wise duty charges 4.50" is undefined. You can implement it using the snippet(s) below:
+
+@When("I calculate slab wise duty charges {double}")
+public void i_calculate_slab_wise_duty_charges(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("I verify slab wise duty charges")
+public void i_verify_slab_wise_duty_charges() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

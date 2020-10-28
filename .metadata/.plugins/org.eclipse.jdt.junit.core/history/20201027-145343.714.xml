@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="electricitybill" tests="4" started="4" failures="0" errors="2" ignored="0">
+  <testsuite name="stepdefs.TestRunner" time="0.8">
+    <testsuite name="Calculate electricity bill" time="0.8">
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.614"/>
+      <testcase name="Calculate Energy Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.012"/>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #1" classname="Calculate electricity bill" time="0.157">
+        <error>io.cucumber.junit.UndefinedStepException: The step "FCA_slab is 0.13" is undefined. You can implement it using the snippet(s) below:
+
+@When("FCA_slab is {double}")
+public void fca_slab_is(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Calculate FCA Charges Units consumed upto 50 units #2" classname="Calculate electricity bill" time="0.016">
+        <error>io.cucumber.junit.UndefinedStepException: The step "FCA_slab is 0.13" is undefined. You can implement it using the snippet(s) below:
+
+@When("FCA_slab is {double}")
+public void fca_slab_is(Double double1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

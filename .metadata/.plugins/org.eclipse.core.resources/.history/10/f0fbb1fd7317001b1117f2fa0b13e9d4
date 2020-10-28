@@ -1,0 +1,12 @@
+package stepdefs;
+
+public class ElectricityBill {
+
+	
+
+	public void getTotalBill(int units) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

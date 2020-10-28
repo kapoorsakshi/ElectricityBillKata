@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import stepdefs.ElectricityBill;
+
+public class ElectricityBillTestSuite {ElectricityBill electricityBill = new ElectricityBill();
+
+@Test
+public void whenUnitsAreWithin50UnitsReturn
+	
+	
+
+}
