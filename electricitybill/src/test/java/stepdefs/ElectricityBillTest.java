@@ -18,6 +18,7 @@ public class ElectricityBillTest {
 	double calculatedDutyCharge_H;
 	double calculatedDutyCharge_I;
 	double TotalDutyCharge;
+	double TotalBillAmount;
 	
 	
 	@Given("My electricity bill is  {int}")
@@ -108,14 +109,7 @@ public class ElectricityBillTest {
 			Assert.assertEquals(dutyslab, rerievDutySlab,0);
 		    
 		}
-
-		@Given("I get slab wise duty charges <Slab wise duty charges = G>")
-		public void i_get_slab_wise_duty_charges_slab_wise_duty_charges_g() {
-			
-			 
-			 //
-		    
-		} 
+		
 		
 		//Slab Wise Duty (G) : G=U * F
 		@Given("I get slab wise duty charges {double}")
@@ -149,84 +143,28 @@ public class ElectricityBillTest {
 
 
 
-			/*@Given("My electricity bill is {double}")
-			public void my_duty_charge_slab_is(Double dutyslab) {
-				
-				
-				electricityBill.setDutySlab(dutyslab);
-				double rerievDutySlab=  electricityBill.getDutySlab();
-				
-				System.out.println("rerievDutySlab=="+rerievDutySlab);
-				
-				Assert.assertEquals(dutyslab, rerievDutySlab,0);
-			   
-			}
 			
-			@Given("I get slab wise duty charges {double}")
-			public void i_get_slab_wise_duty_charges(Double dutyslab) {
-				
-				electricityBill.setDutySlab(dutyslab);
-				double rerievDutySlab=  electricityBill.getDutySlab();
-				
-				System.out.println("rerievDutySlab=="+rerievDutySlab);
-				
-				Assert.assertEquals(dutyslab, rerievDutySlab,0);
-			}
-			
-			@Given("I get FCA on Duty <FCA_Duty_charges= H >")
-			public void i_get_fca_on_duty_fca_duty_charges_h() {
-			    // Write code here that turns the phrase above into concrete actions
-			    throw new io.cucumber.java.PendingException();
-			}
-			
-			
-			@When("I calculate slab wise duty charges {double}")
-			public void i_calculate_slab_wise_duty_charges(Double dutyCharge) {
-				
-				System.out.println("dutyCharge=="+dutyCharge);
-				
-				double calculatedDutyCharge=  electricityBill.calculateDutyCharge();
-				
-				System.out.println("calculatedDutyCharge=="+calculatedDutyCharge);
-				
-				Assert.assertEquals(dutyCharge, calculatedDutyCharge,1);
-			   
-			}
-
-
-			@Then("I verify slab wise duty charges")
-			public void i_verify_slab_wise_duty_charges() {
-			    
-			}
-			
-			
-
-			
-			@When("I get FCA on Duty <Total_Duty_charges G+H=I >")
-			public void i_get_fca_on_duty_total_duty_charges_g_h_i() {
-			    // Write code here that turns the phrase above into concrete actions
-			    throw new io.cucumber.java.PendingException();
-			}*/
 
 			
 ///////  CHECKING FOR TOTAL CHARGES 		
 							
 			@Given("my units are upto {int} and duty slab is {double}")
-			public void my_units_are_upto_and_duty_slab_is(Integer int1, Double double1) {
-			    // Write code here that turns the phrase above into concrete actions
+			public void my_units_are_upto_and_duty_slab_is(Integer units, Double slab) {
+			    electricityBill.setUnits(units);
+			    electricityBill.setSlab(slab);
 			    
 			}
 
 			@When("I check for the Total bill amount")
 			public void i_check_for_the_total_bill_amount() {
-			    // Write code here that turns the phrase above into concrete actions
+				TotalBillAmount= electricityBill.getTotalBillAmount();
+				System.out.println("TotalBillAmount=="+TotalBillAmount);
 			    
 			}
 			
 			@Then("I verify the Total amount {double}")
-			public void i_verify_the_total_amount(Double double1) {
-			    // Write code here that turns the phrase above into concrete actions
-			    //throw new io.cucumber.java.PendingException();
+			public void i_verify_the_total_amount(Double totalBillAmount) {
+			    Assert.assertEquals(totalBillAmount, TotalBillAmount,1);
 			}
 
 

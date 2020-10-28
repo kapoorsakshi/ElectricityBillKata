@@ -10,6 +10,7 @@ public class ElectricityBill {
 	private double calculateSlabWiseDutyCharge;
 	private double calculateFCADutyCharge;
 	private double TotalDutyCharge;
+	private double TotalBillAmount;
 	
 	
 
@@ -89,6 +90,11 @@ public class ElectricityBill {
 		// TODO Auto-generated method stub
 		TotalDutyCharge = calculateSlabWiseDutyCharge + calculateFCADutyCharge;
 		return TotalDutyCharge;
+	}
+
+	public double getTotalBillAmount() {
+		TotalBillAmount= energyCharge + fcaSlabCharge+TotalDutyCharge;
+		return TotalBillAmount;
 	}
 	
 	
