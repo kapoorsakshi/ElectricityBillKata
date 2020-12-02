@@ -140,11 +140,6 @@ public class ElectricityBillTest {
 			Assert.assertEquals(dutycharge_Total, TotalDutyCharge,1);
 		}
 
-
-
-
-			
-
 			
 ///////  CHECKING FOR TOTAL CHARGES 		
 							
